@@ -73,6 +73,9 @@ sudo apt-get install trivy
 Verifiy Trivy installation: trivy --version
 
 8. Install Docker Scout
+sudo mv /root/.docker/cli-plugins/docker-scout /usr/local/bin/docker-scout
+sudo chmod +x /usr/local/bin/docker-scout
+
 Make sure to Login to DockerHub account in browser
 <Follow the process as explained in the video>
 
